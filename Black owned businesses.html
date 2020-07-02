@@ -41,6 +41,17 @@
             
             
 
+<button id="demo" style="float:right;">Click me.</button>
+ 
+<script>
+document.getElementById("demo").onclick = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Thanks for visiting this website!!";
+  alert("Thanks for visiting this website. Check for more updates!");
+}
+</script>
+
     <body>
         <img class="textwrap" src="blackberries.jpg" alt="Black Lives Matter Sign" width="300" height="auto">
     </head>
